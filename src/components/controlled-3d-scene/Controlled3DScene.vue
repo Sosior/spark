@@ -3,6 +3,8 @@
 </template>
 
 <script>
+import * as THREE from 'three'; 
+const { DirectionalLight } = THREE
 import Stage3D from './Stage3D'
 import Animation from '@/core/Animation'
 import { WIDTH, HEIGHT } from '../../constants/pages'
@@ -19,6 +21,8 @@ import {
 export default {
   stage3d: null,
   animations: [],
+  
+  
 
   props: {
     progress: {
@@ -32,10 +36,14 @@ export default {
     progress (value) {
       this.$options.stage3d.autoRotate = value === 0
       this.updateAnimations(value)
+
+      
     }
   },
 
   mounted () {
+    
+
     const WIDTH = 375;
     const HEIGHT = 667;
     this.$options.stage3d = new Stage3D(this.$el, { width: WIDTH * 2, height: HEIGHT * 2 })
@@ -68,6 +76,9 @@ export default {
       const { stage3d } = this.$options
       return state => {
         stage3d.updateObject(objectKey, state)
+
+        
+       
       }
     }
   }

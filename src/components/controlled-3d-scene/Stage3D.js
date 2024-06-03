@@ -31,7 +31,7 @@ class Stage3D extends BaseStage3D {
   createEarth () {
     const earth = createEarth()
     // const earthGrey = createEarth('grey')
-    const earthGrey = createEarth()
+    const earthGrey = createEarth('grey')
     earth.name = 'earth'
     earthGrey.name = 'earthGrey'
 

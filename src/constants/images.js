@@ -1,10 +1,10 @@
 //国旗图片
 import argentinaFlag from '@/assets/images/flags/1.png'
 import brazilFlag from '@/assets/images/flags/2.png'
-// import chileFlag from '@/assets/images/flags/3.png'
-// import englandFlag from '@/assets/images/flags/4.png'
-// import franceFlag from '@/assets/images/flags/5.png'
-// import germanyFlag from '@/assets/images/flags/6.png'
+import chileFlag from '@/assets/images/flags/3.png'
+import englandFlag from '@/assets/images/flags/4.png'
+import franceFlag from '@/assets/images/flags/5.png'
+import germanyFlag from '@/assets/images/flags/6.png'
 import italyFlag from '@/assets/images/flags/7.png'
 import japanFlag from '@/assets/images/flags/8.png'
 import mexicoFlag from '@/assets/images/flags/9.png'
@@ -22,9 +22,9 @@ import unitedStateFlag from '@/assets/images/flags/17.png'
 import robot from '@/assets/images/textures/M_Pantalla2_albedo.jpg'
 
 //球体贴图
-import earth from '@/assets/images/textures/earth.png'
-import earthNight from '@/assets/images/textures/earth4_night.jpg'
-import earthGrey from '@/assets/images/textures/earth_grey.png'
+import earth from '@/assets/images/textures/earth.jpg'
+import earthNight from '@/assets/images/textures/earth_bump.jpg'
+import earthGrey from '@/assets/images/textures/earth_bump.png'
 import earthSpec from '@/assets/images/textures/earth_spec.jpg'
 import earthBump from '@/assets/images/textures/earth_bump.png'
 //补充
@@ -70,10 +70,10 @@ export default {
   // flags
   argentinaFlag,
   brazilFlag,
-  // chileFlag,
-  // englandFlag,
-  // franceFlag,
-  // germanyFlag,
+  chileFlag,
+  englandFlag,
+  franceFlag,
+  germanyFlag,
   italyFlag,
   japanFlag,
   mexicoFlag,

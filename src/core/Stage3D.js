@@ -60,11 +60,27 @@ export default class Stage3D {
     this.scene.add(camera)
     this.camera = camera
   }
+  setBallLightIntensity(intensity) {
+    this.ballLight.intensity = intensity;
+  }
 
+  setOtherLightIntensity(intensity) {
+    this.otherLight.intensity = intensity;
+  }
   createLight () {
-    const directionalLight = new DirectionalLight(0xffffff, 6)
-    directionalLight.position.set(0, 2, 5)
-    this.scene.add(directionalLight)
+    // const directionalLight = new DirectionalLight(0xffffff, 6)
+    // directionalLight.position.set(0, 2, 5)
+    // this.scene.add(directionalLight)
+    
+    // 创建用于球体发光的灯光
+    const ballLight = new DirectionalLight(0xffffff, 7);
+    ballLight.position.set(0, 2, 5);
+    this.scene.add(ballLight);
+
+    // 创建用于其他模型照明的灯光
+    const otherLight = new DirectionalLight(0xffffff,.0);
+    otherLight.position.set(0, 2, 5);
+    this.scene.add(otherLight);
   }
 
   loop = () => {

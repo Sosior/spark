@@ -2,19 +2,19 @@ export default {
   argentina: {
     key: 'argentina',
     name: '阿根廷',
-    location: { lat: -36.535148, lng: -64.904736 },
+    location: { lat: 36.535148, lng: -64.904736 },
     flag: 'argentinaFlag'
   },
   brazil: {
     key: 'brazil',
     name: '巴西',
-    location: { lat: -12.414216, lng: -48.008047 },
+    location: { lat: 12.414216, lng: 160.008047 },
     flag: 'brazilFlag'
   },
   chile: {
     key: 'chile',
     name: '智利',
-    location: { lat: -24.154408, lng: -70.411805 },
+    location: { lat: 24.154408, lng: -70.411805 },
     flag: 'chileFlag'
   },
   england: {
@@ -26,7 +26,7 @@ export default {
   france: {
     key: 'france',
     name: '法国',
-    location: { lat: 46.247809, lng: 2.500512 },
+    location: { lat: 46.247809, lng: 180.500512 },
     flag: 'franceFlag'
   },
   germany: {
@@ -44,13 +44,13 @@ export default {
   japan: {
     key: 'japan',
     name: '日本',
-    location: { lat: 36.741728, lng: 139.254603 },
+    location: { lat: 16.741728, lng: 139.254603 },
     flag: 'japanFlag'
   },
   mexico: {
     key: 'mexico',
     name: '墨西哥',
-    location: { lat: 22.205117, lng: -101.451647 },
+    location: { lat: 35.205117, lng: -101.451647 },
     flag: 'mexicoFlag'
   },
   russia: {
@@ -62,25 +62,25 @@ export default {
   southAfrica: {
     key: 'southAfrica',
     name: '南非',
-    location: { lat: -29.638062, lng: 24.332095 },
+    location: { lat: 29.638062, lng: 24.332095 },
     flag: 'southAfricaFlag'
   },
   southKorea: {
     key: 'southKorea',
     name: '韩国',
-    location: { lat: 36.666468, lng: 127.990144 },
+    location: { lat: 76.666468, lng: 127.990144 },
     flag: 'southKoreaFlag'
   },
   spain: {
     key: 'spain',
     name: '西班牙',
-    location: { lat: 40.270773, lng: -2.852808 },
+    location: { lat: 40.270773, lng: -25.852808 },
     flag: 'spainFlag'
   },
   sweden: {
     key: 'sweden',
     name: '瑞典',
-    location: { lat: 63.976401, lng: 17.174861 },
+    location: { lat: 60.976401, lng: 17.174861 },
     flag: 'swedenFlag'
   },
   switzerland: {
@@ -92,13 +92,13 @@ export default {
   uruguay: {
     key: 'uruguay',
     name: '乌拉圭',
-    location: { lat: -33.594387, lng: -55.254976 },
+    location: { lat: 13.594387, lng: 55.254976 },
     flag: 'uruguayFlag'
   },
   unitedState: {
     key: 'unitedstate',
     name: '美国',
-    location: { lat: 38.818854, lng: -99.574237 },
+    location: { lat: 50.818854, lng: 99.574237 },
     flag: 'unitedStateFlag'
   }
 }

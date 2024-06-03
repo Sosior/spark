@@ -118,7 +118,7 @@ export function createFootball(type) {
 // }
 
 
-export function createFlagSprite (country, { scale = 2.5, sphereRadius = 6.4,opacity = 1 }) {
+export function createFlagSprite (country, { scale = 2.5, sphereRadius = 7,opacity = 1 }) {
   const spriteMaterial = new SpriteMaterial({
     map: getTexture(country.flag),
     // color: 0xffffff
@@ -132,6 +132,6 @@ export function createFlagSprite (country, { scale = 2.5, sphereRadius = 6.4,opa
   const sprite = new Sprite(spriteMaterial)
   const { x, y, z } = latlng2Xyz(country.location.lat, country.location.lng, sphereRadius)
   sprite.position.set(x, y, z)
-  sprite.scale.set(country.key === 'switzerland' ? scale : scale * 1.5, scale, scale)
+  sprite.scale.set(country.key === 'switzerland' ? scale : scale * 3, scale * 3, scale)
   return sprite
 }
